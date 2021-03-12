@@ -3,6 +3,7 @@ This project allows de Bijenkorf's Hiring Managers to screen potential Fullstack
 
 # Table of Contents <!-- omit in toc -->
 - [Folder structure](#folder-structure)
+- [Pre-requisites](#pre-requisites)
 - [Goal](#goal)
 - [Instructions](#instructions)
 - [Requirements](#requirements)
@@ -31,6 +32,9 @@ The initial project structure looks like this:
 ```
 
 You will find further information in the respective documentation for each directory.
+
+# Pre-requisites
+You will can open the wireframes in [Draw.io](https://app.diagrams.net/) in your browser or by using the [Draw.io VSCode extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
 # Goal
 Create a straight forward web application that demonstrates knowledge of the following:
