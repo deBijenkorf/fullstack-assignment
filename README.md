@@ -186,7 +186,7 @@ THEN close dialog
 ```
 
 # Notes
-If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment in [Notes.md](./Notes.md).
+If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment in [NOTES.md](./NOTES.md).
 
 # Submitting your code
 When you complete the assignment, please push your code to a remote repository or email us a .zip file with your solution. **Please do not fork this repository**.
