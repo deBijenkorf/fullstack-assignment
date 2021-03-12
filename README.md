@@ -50,7 +50,7 @@ Implement the following wireframes to the best of your ability:
 ## Scenario: Reservation Overview
 
 ### Loading
-[Wireframe](./wireframes/reservation-overiew--loading.drawio)
+[Wireframe](./wireframes/reservation-overview--loading.drawio)
 
 ```
 GIVEN waiting for network
@@ -59,7 +59,7 @@ THEN display loading indicator
 ```
 
 ### No reservations
-[Wireframe](./wireframes/reservation-overiew--no-reservations.drawio)
+[Wireframe](./wireframes/reservation-overview--no-reservations.drawio)
 
 ```
 GIVEN there are no reservations
@@ -68,7 +68,7 @@ THEN display a message to the user
 ```
 
 ### Reservations
-[Wireframe](./wireframes/reservation-overiew--reservations.drawio)
+[Wireframe](./wireframes/reservation-overview--reservations.drawio)
 
 ```
 GIVEN there are reservations
