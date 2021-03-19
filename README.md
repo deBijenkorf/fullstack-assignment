@@ -36,6 +36,7 @@ Create a straight forward web application that demonstrates knowledge of the fol
 
 - Containerization;
 - Data storage;
+- REST API implementation;
 - API CRUD operations;
 - Client state management;
 - Client routing;
