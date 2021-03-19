@@ -34,7 +34,7 @@ You can open the wireframes in [Draw.io](https://app.diagrams.net/) in your brow
 # Goal
 Create a straight forward web application that demonstrates knowledge of the following:
 
-- Containerisation;
+- Containerization;
 - Data storage;
 - API CRUD operations;
 - Client state management;
