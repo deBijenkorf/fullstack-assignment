@@ -11,15 +11,10 @@ This project allows de Bijenkorf's Hiring Managers to screen potential Fullstack
     - [Loading](#loading)
     - [No reservations](#no-reservations)
     - [Reservations](#reservations)
-  - [Scenario: Reservation Detail](#scenario-reservation-detail)
   - [Scenario: Create Reservation](#scenario-create-reservation)
     - [Valid input](#valid-input)
     - [Invalid input](#invalid-input)
     - [Cancel](#cancel)
-  - [Scenario: Edit Reservation](#scenario-edit-reservation)
-    - [Valid input](#valid-input-1)
-    - [Invalid input](#invalid-input-1)
-    - [Cancel](#cancel-1)
   - [Scenario: Delete Reservation](#scenario-delete-reservation)
 - [Notes](#notes)
 - [Submitting your code](#submitting-your-code)
@@ -28,25 +23,27 @@ This project allows de Bijenkorf's Hiring Managers to screen potential Fullstack
 The initial project structure looks like this:
 ```
 ./client
-./server
+./wireframes
+NOTES.md
+README.md
 ```
-
-You will find further information in the respective documentation for each directory.
 
 # Pre-requisites
 You can open the wireframes in [Draw.io](https://app.diagrams.net/) in your browser or by using the [Draw.io VSCode extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
 # Goal
 Create a straight forward web application that demonstrates knowledge of the following:
+
+- Containerisation;
 - Data storage;
 - API CRUD operations;
 - Client state management;
 - Client routing;
-- Implementation of UI in React;
+- Implementation of Web Client in React;
 - Unit Testing
 
 # Instructions
-You are asked to create a working application. Technology choice is mostly up to you, however we ask you to implement the View Layer in [React](https://reactjs.org/). For that reason we have bootstrapped the [client](./client) with [Create React App](https://create-react-app.dev/). Implementation of routing, state management and networking is down to you. While you are free to implement the API in any way you feel appropriate, we have setup a mock JSON API [server](./server) with [json-server](https://github.com/typicode/json-server) as an option.
+You are asked to create a working application. Technology choice is mostly up to you, however we ask **you** to implement the Web Client in [React](https://reactjs.org/). For that reason we have bootstrapped the [client](./client) with [Create React App](https://create-react-app.dev/). Implementation of routing, state management and networking is down to you. You are free to implement the API in any way you feel appropriate given it satisfies the above mentioned Goals.
 
 # Requirements
 Implement the following wireframes to the best of your ability:
@@ -80,20 +77,6 @@ WHEN page loads
 THEN list reservation items
 ```
 
-## Scenario: Reservation Detail
-[Wireframe](./wireframes/reservation-detail.drawio)
-
-```
-GIVEN user taps reservation title
-WHEN on start screen
-THEN navigate to Reservation Detail
-```
-
-```
-GIVEN user "All reservations" button
-WHEN on reservation detail
-THEN navigate to Reservation Overview
-```
 
 ## Scenario: Create Reservation
 [Wireframe](./wireframes/reservation-create.drawio)
@@ -119,41 +102,6 @@ All fields are required
 
 ```
 GIVEN user taps "Create" button
-WHEN invalid user input on edit form
-THEN mark fields as invalid
-```
-
-### Cancel
-```
-GIVEN user taps "Cancel" button
-WHEN on edit form
-THEN return to Reservation Overview
-```
-
-## Scenario: Edit Reservation
-[Wireframe](./wireframes/reservation-edit.drawio)
-
-```
-GIVEN user taps "Edit" button
-WHEN on start screen
-THEN show Edit Reservation form
-```
-
-### Valid input
-All fields are required
-
-```
-GIVEN user taps "Save" button
-WHEN valid user input in edit form
-THEN update reservation
-AND return to Reservation Overview
-```
-
-### Invalid input
-All fields are required
-
-```
-GIVEN user taps "Save" button
 WHEN invalid user input on edit form
 THEN mark fields as invalid
 ```
