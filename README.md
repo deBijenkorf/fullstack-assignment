@@ -22,8 +22,8 @@ This project allows de Bijenkorf's Hiring Managers to screen potential Fullstack
 # Folder structure
 The initial project structure looks like this:
 ```
-./client
-./wireframes
+client/
+wireframes/
 NOTES.md
 README.md
 ```
